@@ -25,3 +25,12 @@ class Student:  # Student 为类的名称（类名）有一个或多个单词组
 def drink():
     print('喝水')
 
+
+stu1 = Student('张三', 20)
+print(id(stu1))
+print(type(stu1))
+print(stu1)
+print('-' * 30)
+print(id(Student))  # Student是类的名称
+print(type(Student))
+print(Student)

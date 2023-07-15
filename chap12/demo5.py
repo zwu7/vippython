@@ -21,7 +21,18 @@ class Student:  # Student 为类的名称（类名）有一个或多个单词组
         print('我是类方法，因为我使用了classmethod进行修饰')
 
 
-# 在类之外定义的称为函数，在类之内定义的称为方法
-def drink():
-    print('喝水')
+# 类属性的使用方式
+# print(Student.native_place)
+stu1 = Student('张三', 20)
+stu2 = Student('李四', 30)
+print(stu1.native_place)
+print(stu2.native_place)
+Student.native_place = '天津'
+print(stu1.native_place)
+print(stu2.native_place)
 
+print('-' * 10 + '类方法的使用方式' + '-' * 10)
+Student.cm()
+
+print('-' * 10 + '静态方法的使用方式' + '-' * 10)
+Student.method()

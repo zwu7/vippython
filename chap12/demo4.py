@@ -25,3 +25,13 @@ class Student:  # Student 为类的名称（类名）有一个或多个单词组
 def drink():
     print('喝水')
 
+
+stu1 = Student('张三', 20)
+stu1.eat()  # 对象名.方法名()
+print(stu1.name)
+print(stu1.age)
+
+print('-' * 30)
+
+Student.eat(stu1)  # 36行与30行代码功能相同，都是调用Student中的eat方法
+                    # 类名.方法名(类的对象名) --> 实际上就是方法定义处的self
