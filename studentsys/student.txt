@@ -1,1 +1,6 @@
-{'id': '1002', 'name': '李小四', 'english': '65', 'python': '45', 'java': '54'}
+{'id': '1002', 'name': '李小四', 'english': '65', 'python': '423', 'java': '5123'}
+{'id': '1002', 'name': '李小四', 'english': '199', 'python': '42', 'java': '5324'}
+{'id': '1002', 'name': '李小四', 'english': '235', 'python': '15', 'java': '523'}
+{'id': '1002', 'name': '李小四', 'english': '15', 'python': '4123', 'java': '5324'}
+{'id': '1002', 'name': '李小四', 'english': '63', 'python': '25', 'java': '51'}
+{'id': '1002', 'name': '李小四', 'english': '61', 'python': '4325', 'java': '555'}
